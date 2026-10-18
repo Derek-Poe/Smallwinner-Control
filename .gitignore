@@ -1,0 +1,5 @@
+/state/
+/smallwinner
+/demo.json
+/coverage.out
+*.test

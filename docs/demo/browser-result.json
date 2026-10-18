@@ -1,0 +1,40 @@
+{
+  "mode": "smallwinner",
+  "passed": true,
+  "browser": "155.0.8059.40",
+  "checks": [
+    "thermal entry, hysteresis hold and exit",
+    "baseline restoration",
+    "configuration save and stale revision conflict",
+    "missing token rejected",
+    "foreign origin and host rejected",
+    "shell endpoint absent",
+    "token lost on reload and no browser storage",
+    "desktop/mobile rendering",
+    "no external requests"
+  ],
+  "states": [
+    {
+      "temperature": 35,
+      "policy": "demo.game",
+      "cpu": "performance"
+    },
+    {
+      "temperature": 80,
+      "policy": "thermal",
+      "cpu": "balanced"
+    },
+    {
+      "temperature": 72,
+      "policy": "thermal",
+      "cpu": "balanced"
+    },
+    {
+      "temperature": 69,
+      "policy": "demo.game",
+      "cpu": "performance"
+    }
+  ],
+  "pageErrors": [],
+  "externalRequests": []
+}
